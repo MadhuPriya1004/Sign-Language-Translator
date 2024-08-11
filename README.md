@@ -65,6 +65,9 @@ Evaluate the performance of the model on a test set to ensure accuracy and relia
 
 Contact
 For any questions or suggestions, feel free to reach out:
+
 Madhu Priya
+
 Email: madhupriyap05@gmail.com
+
 GitHub:Sripriya1004
