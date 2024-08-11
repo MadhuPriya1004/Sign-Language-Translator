@@ -55,7 +55,7 @@ For any questions or feedback, feel free to reach out:
 
 - Madhu Priya  
   Email: [madhupriyap05@gmail.com](mailto:madhupriyap05@gmail.com)  
-  GitHub: [Sripriya1004](https://github.com/Sripriya1004)
+  GitHub: [MadhuPriya1004](https://github.com/MadhuPriya1004)
 
 
 
