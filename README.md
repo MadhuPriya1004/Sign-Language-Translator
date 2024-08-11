@@ -7,8 +7,8 @@ Welcome to the Sign Language Translator project! This cutting-edge tool leverage
 Project Structure
 
 - Sign Language Transcription.ipynb: The heart of the project, this Jupyter Notebook contains comprehensive code for detecting, classifying, and translating hand gestures into text. It includes sections on preprocessing, model training, and live transcription.
-- data(Optional)*: Directory to store the dataset used for model training.
-- models(Optional)*: Directory for saving and loading trained machine learning models.
+- data(Optional): Directory to store the dataset used for model training.
+- models(Optional): Directory for saving and loading trained machine learning models.
 
 Setup and Installation
 
