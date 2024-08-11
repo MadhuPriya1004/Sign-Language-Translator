@@ -1,73 +1,61 @@
-# Sign-Language-Translator
-This project is focused on transcribing sign language gestures into text. The Jupyter Notebook provided demonstrates the process of detecting, classifying, and translating hand gestures into corresponding text outputs using various machine learning techniques.
 
-Table of Contents
-
+# Sign Language Translator
 Overview
+
+Welcome to the Sign Language Translator project! This cutting-edge tool leverages the power of computer vision and machine learning to seamlessly transcribe sign language gestures into text. Designed to enhance accessibility and facilitate communication for the non-hearing community, this project provides real-time translation of sign language, bridging communication gaps and fostering inclusivity.
 
 Project Structure
 
+- Sign Language Transcription.ipynb: The heart of the project, this Jupyter Notebook contains comprehensive code for detecting, classifying, and translating hand gestures into text. It includes sections on preprocessing, model training, and live transcription.
+- data(Optional)*: Directory to store the dataset used for model training.
+- models(Optional)*: Directory for saving and loading trained machine learning models.
+
 Setup and Installation
 
-Usage
+1. Clone the Repository:
+   bash
+   git clone https://github.com/yourusername/sign-language-transcription.git
+   cd sign-language-transcription
+   
+
+2. Install Dependencies:
+   Ensure you have Python installed. Then, install the required packages:
+   bash
+   pip install -r requirements.txt
+   
+
+3. Download or Prepare the Dataset:
+   - If a dataset is provided, place it in the data directory.
+   - Alternatively, prepare your dataset for training by following the instructions in the notebook.
+
+4. Run the Jupyter Notebook:
+   Start Jupyter Notebook from your terminal:
+   bash
+   jupyter notebook
+   
+   Open the `Sign Language Transcription.ipynb` notebook to get started.
+
+ Usage
+
+1. Data Preprocessing:
+   The notebook guides you through preprocessing gesture images, including resizing, normalization, and augmentation to ensure high-quality inputs for the model.
+
+2. Model Training:
+   Train your model using the provided dataset. The notebook covers various aspects such as model selection, hyperparameter tuning, and evaluation to ensure optimal performance.
+
+3. Transcription:
+   Utilize the trained model to transcribe new sign language gestures into text. The notebook includes code for loading the model and performing real-time transcription.
+
+4. Evaluation:
+   Assess the model’s performance on a test set to validate its accuracy and reliability.
 
 Contact
 
-Overview
+For any questions or feedback, feel free to reach out:
 
-The Sign Language Translator project leverages computer vision and machine learning to recognize and transcribe sign language gestures into text. This tool is intended to aid communication by providing a real-time translation of sign language, enhancing accessibility for non-hearing individuals.
-Project Structure
-Sign language transcription.ipynb: The main Jupyter Notebook file containing the code for gesture recognition, preprocessing, model training, and transcription.
-data/: (Optional) Directory where the dataset used for training the model is stored.
-models/: (Optional) Directory to save and load trained machine learning models.
-Setup and Installation
+- Madhu Priya  
+  Email: [madhupriyap05@gmail.com](mailto:madhupriyap05@gmail.com)  
+  GitHub: [Sripriya1004](https://github.com/Sripriya1004)
 
-Clone the Repository:
-git clone https://github.com/yourusername/sign-language-transcription.git
 
-cd sign-language-transcription
 
-Install Dependencies:
-
-Make sure you have Python installed. Install the required packages by running:
-
-Download or Prepare the Dataset:
-
-If the dataset is provided, place it in the data/ directory.
-
-Alternatively, you can prepare your dataset for training by following the instructions in the notebook.
-
-Run the Jupyter Notebook:
-
-Start Jupyter Notebook in your terminal:
-
-jupyter notebook
-
-Open the Sign language transcription.ipynb notebook to begin.
-
-Usage
-
-Data Preprocessing:
-
-The notebook includes code for preprocessing gesture images, including resizing, normalization, and augmentation.
-
-Model Training:
-
-Train the model using the provided dataset. The notebook covers various aspects of training, including model selection, tuning, and evaluation.
-
-Transcription:
-
-After training, use the model to transcribe new sign language gestures into text. The notebook provides code for loading a trained model and performing real-time transcription.
-
-Evaluation:
-
-Evaluate the performance of the model on a test set to ensure accuracy and reliability.
-
-Contact
-For any questions or suggestions, feel free to reach out:
-
-Madhu Priya
-
-Email: madhupriyap05@gmail.com
-
-GitHub:Sripriya1004
